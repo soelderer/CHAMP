@@ -3,7 +3,8 @@ from future.utils import iteritems,iterkeys
 from future.utils import lmap
 
 from multiprocessing import Pool
-from collections import defaultdict, Hashable
+from collections import defaultdict
+from collections.abc import Hashable
 from contextlib import contextmanager
 import numpy as np
 from numpy.random import choice, uniform
